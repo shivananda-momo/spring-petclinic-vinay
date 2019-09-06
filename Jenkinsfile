@@ -1,7 +1,4 @@
-{
-    {
-        {
-            pipeline{
+pipeline{
     agent { label 'java'}
     stages{
         stage('SCM'){
